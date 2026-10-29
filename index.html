@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La Cabaña de Don Oscar | Tortillas de harina en Jutiapa</title>
+<meta name="description" content="Restaurante en Jutiapa, Guatemala. Tortillas de harina servidas en canasta, consumo en el lugar, para llevar y a domicilio.">
+<meta property="og:title" content="La Cabaña de Don Oscar">
+<meta property="og:description" content="Tortillas de harina recién hechas en Jutiapa. 4.3 en Google.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=Figtree:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"La Cabaña de Don Oscar","telephone":"+50257247938","address":{"@type":"PostalAddress","addressLocality":"Jutiapa","addressCountry":"GT"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.3","reviewCount":"79"},"servesCuisine":"Guatemalteca","priceRange":"Q1-Q50"}</script>
+<style>
+:root{--ceniza:#1c120c;--nogal:#2d1c12;--cafe:#5a3722;--crema:#f4ead9;--hueso:#fbf6ec;--brasa:#e08a2e;--texto:#2b1b11;--suave:#7a6350;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--hueso:#241811;--crema:#2d1f15;--texto:#f1e6d3;--suave:#b9a58e;color-scheme:dark}}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font:400 17px/1.6 Figtree,system-ui,sans-serif;background:var(--hueso);color:var(--texto);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.1;font-weight:700}
+h2{font-size:clamp(30px,5vw,48px);margin-bottom:12px}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--brasa);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+section{padding:84px 0}
+.btn{display:inline-block;padding:14px 26px;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid var(--brasa);background:var(--brasa);color:#2a1606;cursor:pointer;font-size:16px;font-family:inherit;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.o{background:transparent;color:inherit;border-color:currentColor}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;padding-top:env(safe-area-inset-top,0px);background:rgba(28,18,12,.82);backdrop-filter:blur(10px);color:#f4ead9}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+nav b{font-family:Fraunces,serif;font-size:19px}
+nav .links{display:flex;gap:22px;align-items:center;font-size:15px}
+nav .links a{text-decoration:none;opacity:.85}
+nav .links .btn{padding:8px 18px;opacity:1;font-size:14px}
+@media(max-width:820px){nav .links a:not(.btn){display:none}}
+.hero{background:var(--ceniza);color:#f4ead9;padding:130px 0 80px;min-height:100svh;display:flex;align-items:center}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(40px,7vw,78px);margin:14px 0 18px}
+.hero p.l{font-size:19px;max-width:30em;opacity:.85}
+.ab{display:inline-flex;gap:8px;align-items:center;font-size:15px;padding:6px 14px;border-radius:999px;background:rgba(255,255,255,.1)}
+.ab i{width:9px;height:9px;border-radius:50%;background:#777}.ab.on i{background:#5fd07a}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.gable{aspect-ratio:4/5;clip-path:polygon(50% 0,100% 16%,100% 100%,0 100%,0 16%);background:linear-gradient(160deg,var(--cafe),var(--nogal)) center/cover;display:grid;place-items:center}
+.gable svg{width:46%;opacity:.55}
+.in{opacity:0;transform:translateY(18px);animation:in .8s .1s forwards}.in.d2{animation-delay:.3s}.in.d3{animation-delay:.5s}
+@keyframes in{to{opacity:1;transform:none}}
+@media(max-width:820px){.hero .wrap{grid-template-columns:1fr}.gable{max-width:320px;aspect-ratio:1}}
+.datos{background:var(--brasa);color:#2a1606;font-weight:600}
+.datos .wrap{display:flex;flex-wrap:wrap;gap:8px 30px;justify-content:center;padding-top:16px;padding-bottom:16px;font-size:15px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 28px}
+.tab{padding:8px 18px;border-radius:999px;border:1.5px solid var(--cafe);background:none;color:inherit;font:inherit;font-size:15px;cursor:pointer}
+.tab[aria-pressed=true]{background:var(--cafe);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.card{background:var(--crema);border-radius:16px;overflow:hidden}
+.card .im{aspect-ratio:4/3;background:radial-gradient(circle at 50% 55%,#e9c88f 0 26%,transparent 27%),linear-gradient(var(--cafe),var(--nogal)) center/cover}
+.card .tx{padding:16px 18px 20px}
+.card h3{font-size:20px;display:flex;justify-content:space-between;gap:10px}
+.card h3 span{color:var(--brasa);white-space:nowrap}
+.card p{color:var(--suave);font-size:15px;margin-top:6px}
+.esp{background:var(--nogal);color:#f4ead9}
+.esp .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.esp .ph{aspect-ratio:1;border-radius:16px;background:linear-gradient(150deg,var(--cafe),var(--ceniza)) center/cover}
+@media(max-width:820px){.esp .wrap{grid-template-columns:1fr}}
+.gal{columns:3 220px;column-gap:14px}.gal img{width:100%;margin-bottom:14px;border-radius:12px}
+.rev{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 0 18px}
+.rev blockquote{flex:0 0 min(320px,82%);scroll-snap-align:start;background:var(--crema);border-radius:16px;padding:22px}
+.rev blockquote p{font-family:Fraunces,serif;font-size:19px;line-height:1.35}
+.rev small{display:block;margin-top:14px;color:var(--suave)}
+.score{font-family:Fraunces,serif;font-size:64px;line-height:1}
+table{border-collapse:collapse;width:100%;max-width:440px}td{padding:10px 0;border-bottom:1px solid rgba(122,99,80,.3)}td:last-child{text-align:right;font-weight:600}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px}@media(max-width:820px){.two{grid-template-columns:1fr}}
+form{display:grid;gap:12px;max-width:440px}
+input,textarea,select{width:100%;padding:11px 13px;border-radius:10px;border:1.5px solid rgba(122,99,80,.5);background:var(--hueso);color:var(--texto);font:inherit;font-size:16px}
+footer{background:var(--ceniza);color:#cdbba3;padding:40px 0 60px;font-size:15px}
+.wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:15;width:56px;height:56px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+.wa svg{width:30px;fill:#fff}
+.mapa{display:block;margin-top:18px;border-radius:16px;overflow:hidden;border:1.5px solid rgba(122,99,80,.4)}.mapa svg{width:100%;display:block}
+/* ---------- panel de administración ---------- */
+#adm-b{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;display:none}
+#adm{position:fixed;inset:0 0 0 auto;width:min(520px,100%);background:var(--hueso);z-index:40;overflow:auto;padding:20px;transform:translateX(100%);transition:transform .3s;box-shadow:-10px 0 30px rgba(0,0,0,.35)}
+#adm.on{transform:none}
+#adm details{border:1.5px solid rgba(122,99,80,.4);border-radius:12px;margin:12px 0;padding:10px 14px}
+#adm summary{font-weight:600;cursor:pointer;padding:4px 0}
+#adm .it{border-top:1px solid rgba(122,99,80,.3);padding:12px 0;display:grid;gap:8px}
+#adm .r{display:flex;gap:8px;align-items:center}
+#adm label{font-size:13px;color:var(--suave)}
+#adm .th{width:56px;height:56px;border-radius:8px;object-fit:cover;background:var(--cafe)}
+#adm .x{background:none;border:0;color:#c0392b;cursor:pointer;font:inherit}
+#toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#111;color:#fff;padding:10px 18px;border-radius:999px;z-index:50;display:none}
+@media(prefers-reduced-motion:reduce){.in{animation:none;opacity:1;transform:none}html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b id="nm">La Cabaña de Don Oscar</b><div class="links"><a href="#menu">Menú</a><a href="#nosotros">Nosotros</a><a href="#opiniones">Opiniones</a><a href="#ubicacion">Ubicación</a><a href="#contacto">Contacto</a><a class="btn" id="n-ped" href="#">Haz tu pedido</a></div></div></nav>
+
+<header class="hero" id="inicio"><div class="wrap">
+<div><span class="ab in" id="ab"><i></i><span id="ab-t">Revisando horario</span></span>
+<h1 class="in d2">Tortillas de harina, recién salidas del comal.</h1>
+<p class="l in d2">En Jutiapa las servimos calientes, en canasta, como se hace en casa. Pásate a comer, pídelas para llevar o te las mandamos.</p>
+<div class="cta in d3"><a class="btn" id="h-ped" href="#">Pedir a domicilio</a><a class="btn o" id="h-tel" href="#">Llamar ahora</a></div></div>
+<div class="gable in d3" id="h-img"><svg viewBox="0 0 64 64" fill="none" stroke="#f4ead9" stroke-width="2"><path d="M6 30 32 8l26 22M12 28v28h40V28M24 56V38h16v18"></path></svg></div>
+</div></header>
+
+<div class="datos"><div class="wrap"><span>4.3 en Google</span><span>79 opiniones</span><span>En el lugar</span><span>Para llevar</span><span>A domicilio</span><span>Q1 a Q50 por persona</span></div></div>
+
+<section id="menu"><div class="wrap"><h2>Lo que sale de la cocina</h2><p style="color:var(--suave)">Precios en quetzales.</p><div class="tabs" id="tabs"></div><div class="grid" id="mgrid"></div>
+<p style="margin-top:28px"><a class="btn" id="m-ped" href="#">Pedir en línea</a></p></div></section>
+
+<section class="esp"><div class="wrap"><div><h2>La canasta de tortillas</h2><p style="font-size:19px;opacity:.88">Es lo que más nos piden y lo que mejor nos sale. Tortillas de harina calientitas, suaves, que llegan a la mesa en canastas de mimbre para que no se enfríen.</p></div><div class="ph" id="e-img"></div></div></section>
+
+<section id="nosotros"><div class="wrap two"><div><h2>Una cabaña para comer bien</h2><p id="a-txt"></p></div><div class="gable" style="aspect-ratio:1" id="a-img"></div></div></section>
+
+<section id="galeria" style="padding-top:0"><div class="wrap"><h2>Así se ve por dentro</h2><div class="gal" id="gal"></div></div></section>
+
+<section id="opiniones" style="background:var(--crema)"><div class="wrap"><div class="r" style="display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-bottom:18px"><div class="score">4.3</div><div><h2 style="margin:0">Lo que dicen en Google</h2><span style="color:var(--suave)">79 opiniones</span></div></div><div class="rev" id="rev"></div><a class="btn o" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=La+Caba%C3%B1a+de+Don+Oscar+Jutiapa">Escribir una opinión</a></div></section>
+
+<section id="ubicacion"><div class="wrap two"><div><h2>Horarios</h2><table id="hor"></table><p style="color:var(--suave);margin-top:12px;font-size:15px">Los horarios pueden variar en días festivos.</p></div><div><h2>Dónde estamos</h2><p>Jutiapa, Guatemala.<br>Código plus 74Q5+4WJ</p><a class="mapa" data-app="maps" target="_blank" rel="noopener" aria-label="Ver La Cabaña de Don Oscar en Google Maps" href="https://www.google.com/maps/search/?api=1&amp;query=74Q5%2B4WJ+Jutiapa"><svg viewBox="0 0 400 240" role="img" aria-hidden="true"><rect width="400" height="240" style="fill:var(--crema)"></rect><path d="M0 70 L400 40 M0 190 L400 170 M120 0 L150 240 M290 0 L270 240" style="stroke:var(--hueso);stroke-width:14;fill:none"></path><path d="M0 130 L400 110 M210 0 L200 240" style="stroke:var(--hueso);stroke-width:7;fill:none"></path><path d="M200 138C200 138 176 112 176 94a24 24 0 0 1 48 0C224 112 200 138 200 138Z" style="fill:var(--brasa)"></path><circle cx="200" cy="94" r="8" style="fill:var(--ceniza)"></circle><rect x="105" y="150" width="190" height="34" rx="17" style="fill:var(--ceniza)"></rect><text x="200" y="172" text-anchor="middle" style="fill:#f4ead9;font:600 15px Figtree,sans-serif">La Cabaña de Don Oscar</text></svg></a><p style="margin-top:20px"><a class="btn" data-app="maps" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=74Q5%2B4WJ+Jutiapa">Cómo llegar</a></p></div></div></section>
+
+<section id="contacto" style="background:var(--crema)"><div class="wrap two"><div><h2>Escríbenos</h2><p>Reserva una mesa o pregúntanos lo que quieras. Te respondemos por WhatsApp.</p><p style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn" id="c-ped" href="#">PedidosYa</a><a class="btn o" id="c-tel" href="#">Llamar</a></p></div>
+<form id="f"><input name="n" placeholder="Tu nombre" required="" autocomplete="name"><input name="t" type="tel" placeholder="Tu teléfono" autocomplete="tel"><textarea name="m" rows="4" placeholder="Tu mensaje o reservación" required=""></textarea><button class="btn" type="submit">Enviar por WhatsApp</button></form></div></section>
+
+<footer><div class="wrap"><b id="fnm" style="font-family:Fraunces,serif;font-size:20px;color:#f4ead9">La Cabaña de Don Oscar</b><p style="margin-top:8px">Jutiapa, Guatemala · <span id="f-tel"></span></p><p style="margin-top:8px">Facebook · Instagram · TikTok</p></div></footer>
+
+<a class="wa" id="wa" href="#" aria-label="Escribir por WhatsApp"><svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11 19.800L3 29l6.400-2A13 13 0 1 0 16 3Zm7.500 18.300c-.3.900-1.800 1.700-2.500 1.800-.6.100-1.400.1-2.300-.1-.5-.2-1.200-.4-2-.8-3.600-1.600-5.900-5.200-6.100-5.400-.2-.2-1.400-1.900-1.400-3.600s.9-2.500 1.200-2.900c.3-.3.700-.4.900-.4h.7c.2 0 .5-.1.800.6l1 2.400c.1.200.1.400 0 .6l-.4.600-.6.700c-.2.200-.4.400-.2.800.2.400 1 1.700 2.200 2.700 1.500 1.300 2.700 1.700 3.100 1.900.4.200.6.200.9-.1l1.200-1.400c.3-.4.500-.3.900-.2l2.300 1.100c.4.200.6.300.7.500.1.200.1 1-.2 1.800Z"></path></svg></a>
+
+<aside id="adm" aria-label="Panel de administración"></aside>
+<div id="toast"></div>
+
+<script id="state" type="application/json">{"nombre":"La Cabaña de Don Oscar","pw":"d179dcb7df5d4eccb8402ae2aaf35ac700cf8800d756e3bdbf6ab3818a08a1dd","tel":"50257247938","pedidos":"https://www.pedidosya.com.gt","hero":"","esp":"","about":"","aboutTxt":"La Cabaña de Don Oscar nació para que en Jutiapa hubiera un lugar donde sentarse sin prisa, con buena comida y buena atención. Aquí cada pedido se prepara al momento y las tortillas de harina llegan calientes a tu mesa. Edita este texto desde el panel con la historia real del negocio.","gal":[],"horarios":[{"l":"Lunes a viernes","days":[1,2,3,4,5],"a":"10:00","c":"21:00"},{"l":"Sábado","days":[6],"a":"08:00","c":"22:00"},{"l":"Domingo","days":[0],"a":"10:00","c":"21:00"}],"menu":[{"n":"Tortillas de harina ","d":"tortillas calientes rellenas de queso. Ejemplo, edítalo.","p":25,"cat":"Tortillas","img":""},{"n":" tortillas de harina","d":"Para compartir, con la salsa de la casa. Ejemplo, edítalo.","p":18,"cat":"Tortillas","img":""},{"n":"Plato típico","d":"Carne a la parrilla, frijoles y guarnición. Ejemplo, edítalo.","p":45,"cat":"Platillos","img":""},{"n":"Desayuno chapín","d":"Huevos, frijoles, plátano y tortillas. Ejemplo, edítalo.","p":30,"cat":"Platillos","img":""},{"n":"Refresco natural","d":"Del día. Ejemplo, edítalo.","p":10,"cat":"Bebidas","img":""},{"n":"Café de olla","d":"Con canela y panela. Ejemplo, edítalo.","p":8,"cat":"Bebidas","img":""}],"resenas":[{"n":"Ben López","f":"Local Guide · hace 2 años","t":"Comida muy sabrosa.","v":1},{"n":"Werner Gomez","f":"Local Guide · hace 1 año","t":"Excelente servicio, ambiente y comida.","v":1},{"n":"Juan Fuentes","f":"Local Guide · hace 5 años","t":"Muy bonito lugar, atención amable y las tortillas de harina muy ricas, recomendado.","v":1},{"n":"Mynor Alexander Gómez Arana","f":"Local Guide · hace 4 años","t":"Buen sabor de las tortillas de harina, atención rápida.","v":1},{"n":"Walter Catalan","f":"hace 5 años","t":"La comida es muy rica y las canastas en donde las sirven son lindas.","v":1},{"n":"Oscar Cruz","f":"hace 5 años","t":"Buenísimo lugar.","v":1}]}</script>
+
+<script>
+(function(){
+// Copia limpia del documento (antes de dibujar nada) para poder guardar cambios del panel.
+var PRISTINE=document.documentElement.outerHTML;
+var S=JSON.parse(document.getElementById('state').textContent);
+var $=function(s){return document.querySelector(s)};
+var esc=function(x){return String(x==null?'':x).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+var bg=function(u){return u?'background-image:url("'+esc(u)+'")':''};
+var cat='Todos';
+function fmt(t){var h=+t.slice(0,2),m=t.slice(3);return (h%12||12)+(m!=='00'?':'+m:'')+' '+(h<12?'a.m.':'p.m.')}
+function estado(){
+  var g=new Date(Date.now()-6*36e5),d=g.getUTCDay(),mn=g.getUTCHours()*60+g.getUTCMinutes(),on=false;
+  S.horarios.forEach(function(h){if(h.days.indexOf(d)>-1){var a=h.a.split(':'),c=h.c.split(':');if(mn>=a[0]*60+ +a[1]&&mn<c[0]*60+ +c[1])on=true}});
+  $('#ab').className='ab in'+(on?' on':'');$('#ab-t').textContent=on?'Abierto ahora':'Cerrado ahora';
+}
+function render(){
+  var tel='tel:+'+S.tel,wa='https://wa.me/'+S.tel;
+  $('#nm').textContent=S.nombre;$('#fnm').textContent=S.nombre;document.title=S.nombre+' | Tortillas de harina en Jutiapa';
+  ['n-ped','h-ped','m-ped','c-ped'].forEach(function(i){var a=$('#'+i);a.href=S.pedidos;a.target='_blank';a.rel='noopener';a.dataset.app='pedidos'});
+  ['h-tel','c-tel'].forEach(function(i){$('#'+i).href=tel});
+  $('#wa').href=wa;$('#f-tel').textContent=S.tel.replace(/^502(\d{4})(\d{4})$/,'$1 $2');
+  $('#h-img').setAttribute('style',bg(S.hero));if(S.hero)$('#h-img').innerHTML='';
+  $('#e-img').setAttribute('style',bg(S.esp));$('#a-img').setAttribute('style','aspect-ratio:1;'+bg(S.about));
+  $('#a-txt').textContent=S.aboutTxt;
+  var cats=['Todos'].concat(S.menu.map(function(m){return m.cat}).filter(function(c,i,a){return c&&a.indexOf(c)===i}));
+  if(cats.indexOf(cat)<0)cat='Todos';
+  $('#tabs').innerHTML=cats.map(function(c){return '<button class="tab" data-c="'+esc(c)+'" aria-pressed="'+(c===cat)+'">'+esc(c)+'</button>'}).join('');
+  $('#mgrid').innerHTML=S.menu.filter(function(m){return cat==='Todos'||m.cat===cat}).map(function(m){return '<article class="card"><div class="im" style="'+bg(m.img)+'"></div><div class="tx"><h3>'+esc(m.n)+'<span>Q'+esc(m.p)+'</span></h3><p>'+esc(m.d)+'</p></div></article>'}).join('');
+  $('#gal').innerHTML=S.gal.map(function(u){return '<img loading="lazy" alt="Foto de La Cabaña de Don Oscar" src="'+esc(u)+'">'}).join('');
+  $('#galeria').style.display=S.gal.length?'':'none';
+  $('#rev').innerHTML=S.resenas.filter(function(r){return r.v}).map(function(r){return '<blockquote><p>“'+esc(r.t)+'”</p><small>'+esc(r.n)+(r.f?' · '+esc(r.f):'')+'</small></blockquote>'}).join('');
+  $('#hor').innerHTML=S.horarios.map(function(h){return '<tr><td>'+esc(h.l)+'</td><td>'+fmt(h.a)+' a '+fmt(h.c)+'</td></tr>'}).join('');
+  estado();
+}
+$('#tabs').addEventListener('click',function(e){var b=e.target.closest('.tab');if(b){cat=b.dataset.c;render()}});
+$('#f').addEventListener('submit',function(e){e.preventDefault();var f=e.target;
+  var t='Hola, soy '+f.n.value+(f.t.value?' ('+f.t.value+')':'')+'. '+f.m.value;
+  window.open('https://wa.me/'+S.tel+'?text='+encodeURIComponent(t),'_blank')});
+// En celular, Maps y PedidosYa abren su app; si no está instalada, abre la web. En computadora, enlace normal.
+document.addEventListener('click',function(e){
+  var a=e.target.closest('a[data-app]');if(!a)return;
+  var ua=navigator.userAgent,and=/Android/i.test(ua),ios=/iPhone|iPad|iPod/i.test(ua);
+  if(!and&&!ios)return;
+  var web=a.href,q=encodeURIComponent('74Q5+4WJ Jutiapa, Guatemala'),u;
+  if(a.dataset.app==='maps')u=and?'intent://www.google.com/maps/search/?api=1&query='+q+'#Intent;scheme=https;package=com.google.android.apps.maps;S.browser_fallback_url='+encodeURIComponent(web)+';end':'comgooglemaps://?q='+q;
+  else u=and?'intent://#Intent;scheme=pedidosya;package=com.pedidosya;S.browser_fallback_url='+encodeURIComponent(web)+';end':'pedidosya://';
+  e.preventDefault();location.href=u;
+  if(ios)setTimeout(function(){if(!document.hidden)window.open(web,'_blank')},1500);
+},true);
+render();setInterval(estado,60000);
+
+// ---------- Panel de administración (solo editores) ----------
+var adm=$('#adm'),assets=null,art=null;
+function toast(t){var x=$('#toast');x.textContent=t;x.style.display='block';setTimeout(function(){x.style.display='none'},2600)}
+function get(p){return p.split('.').reduce(function(o,k){return o[k]},S)}
+function set(p,v){var k=p.split('.'),l=k.pop();k.reduce(function(o,x){return o[x]},S)[l]=v}
+function im(p){var u=get(p);return '<div class="r"><img class="th" alt="" '+(u?'src="'+esc(u)+'"':'')+'><input type="file" accept="image/*" data-up="'+p+'"></div>'}
+function fld(l,p,type){return '<label>'+l+'</label><input '+(type?'type="'+type+'" ':'')+'data-k="'+p+'" value="'+esc(get(p))+'">'}
+function panel(){
+  var h='<div class="r" style="justify-content:space-between"><h2 style="font-size:26px;margin:0">Administrar</h2><button class="x" data-a="close" style="color:inherit">Cerrar</button></div>';
+  h+='<details open><summary>Platillos y precios</summary>'+S.menu.map(function(m,i){var b='menu.'+i;return '<div class="it">'+fld('Nombre',b+'.n')+fld('Descripción',b+'.d')+'<div class="r"><div style="flex:1">'+fld('Precio (Q)',b+'.p','number')+'</div><div style="flex:1">'+fld('Categoría',b+'.cat')+'</div></div>'+im(b+'.img')+'<button class="x" data-del="menu.'+i+'">Quitar platillo</button></div>'}).join('')+'<button class="btn o" data-add="menu">Agregar platillo</button></details>';
+  h+='<details><summary>Horarios</summary>'+S.horarios.map(function(x,i){var b='horarios.'+i;return '<div class="it">'+fld('Días',b+'.l')+'<div class="r"><div style="flex:1">'+fld('Abre',b+'.a','time')+'</div><div style="flex:1">'+fld('Cierra',b+'.c','time')+'</div></div></div>'}).join('')+'<p style="font-size:13px;color:var(--suave)">Los días de cada fila (lunes a viernes, sábado, domingo) ya están configurados; aquí cambias el nombre y las horas.</p></details>';
+  h+='<details><summary>Opiniones</summary>'+S.resenas.map(function(r,i){var b='resenas.'+i;return '<div class="it">'+fld('Nombre',b+'.n')+fld('Texto',b+'.t')+fld('Detalle (ej. Local Guide · hace 1 año)',b+'.f')+'<label><input type="checkbox" style="width:auto" data-chk="'+b+'.v" '+(r.v?'checked':'')+'> Mostrar en la página</label><button class="x" data-del="resenas.'+i+'">Eliminar</button></div>'}).join('')+'<button class="btn o" data-add="resenas">Agregar opinión</button></details>';
+  h+='<details><summary>Fotos de la página</summary><div class="it"><label>Foto principal (portada)</label>'+im('hero')+'<label>Foto de la canasta de tortillas</label>'+im('esp')+'<label>Foto de Nosotros</label>'+im('about')+'<label>Texto de Nosotros</label><textarea rows="5" data-k="aboutTxt">'+esc(S.aboutTxt)+'</textarea></div><div class="it"><label>Galería</label><div class="r" style="flex-wrap:wrap">'+S.gal.map(function(u,i){return '<div><img class="th" src="'+esc(u)+'" alt=""><button class="x" data-del="gal.'+i+'">Quitar</button></div>'}).join('')+'</div><input type="file" accept="image/*" multiple data-gal="1"></div></details>';
+  h+='<details><summary>Negocio y acceso</summary><div class="it">'+fld('Nombre del negocio','nombre')+fld('WhatsApp y teléfono (con 502)','tel')+fld('Enlace de pedidos','pedidos')+'<label>Cambiar contraseña (mínimo 4 caracteres)</label><input type="password" id="npw" autocomplete="new-password"><button class="btn o" data-a="pw">Cambiar contraseña</button></div></details>';
+  h+='<p style="margin-top:16px"><button class="btn" data-a="save">Guardar y publicar cambios</button></p><p style="font-size:13px;color:var(--suave);margin-top:8px">Los cambios se ven en la página al instante, pero los visitantes solo los verán cuando guardes.</p>';
+  adm.innerHTML=h;
+}
+adm.addEventListener('input',function(e){var t=e.target,k=t.dataset.k;if(!k)return;set(k,t.type==='number'?+t.value:t.value);render()});
+adm.addEventListener('change',async function(e){var t=e.target;
+  if(t.dataset.chk){set(t.dataset.chk,t.checked?1:0);render();return}
+  if(!t.files||!t.files.length||!assets)return;
+  try{toast('Subiendo foto...');
+    if(t.dataset.up)set(t.dataset.up,(await assets.upload(t.files[0])).url);
+    else for(var f of t.files)S.gal.push((await assets.upload(f)).url);
+    panel();render();toast('Foto lista')}catch(x){toast('No se pudo subir la foto')}});
+adm.addEventListener('click',async function(e){var t=e.target,a=t.dataset;
+  if(a.a==='close'){adm.classList.remove('on')}
+  else if(a.a==='login'){var v=$('#lp').value;if(!S.pw){if(v.length<4){toast('Mínimo 4 caracteres');return}S.pw=await sha(v);toast('Contraseña creada. Guarda y publica para dejarla fija.');panel()}else if(await sha(v)===S.pw)panel();else toast('Contraseña incorrecta')}
+  else if(a.a==='pw'){var n=$('#npw').value;if(n.length<4){toast('Mínimo 4 caracteres');return}S.pw=await sha(n);toast('Contraseña cambiada. Guarda y publica para aplicarla.')}
+  else if(a.del){var k=a.del.split('.');S[k[0]].splice(+k[1],1);panel();render()}
+  else if(a.add==='menu'){S.menu.push({n:'Nuevo platillo',d:'Descripción',p:10,cat:'Platillos',img:''});panel();render()}
+  else if(a.add==='resenas'){S.resenas.push({n:'Cliente',f:'',t:'Opinión',v:1});panel();render()}
+  else if(a.a==='save'){
+    if(!art){toast('Guardar no está disponible aquí');return}
+    try{toast('Publicando...');var j=JSON.stringify(S).replace(/</g,'\\u003c');
+      var html=PRISTINE.replace(/(<script id="state" type="application\/json">)[\s\S]*?(<\/script>)/,function(m,x,y){return x+j+y});
+      await art.publish('<!doctype html>\n'+html)}catch(x){toast('No se pudo guardar')}}});
+// El panel no tiene botón visible. Se abre con #acceso-cabana en la dirección o tocando 2 veces el nombre del pie de página.
+async function sha(s){var b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('cabana|'+s));return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0')}).join('')}
+var ok=false;
+function login(){
+  adm.innerHTML='<h2 style="font-size:26px">'+(S.pw?'Acceso':'Crea tu contraseña')+'</h2><p style="margin:10px 0"><input type="password" id="lp" placeholder="Contraseña" autocomplete="current-password"></p><button class="btn" data-a="login">Entrar</button> <button class="x" data-a="close" style="color:inherit">Cerrar</button>';
+  adm.classList.add('on');
+}
+function abrir(){if(ok)login()}
+(async function(){try{
+  if(!window.claude||!claude.use)return;
+  var u=await claude.use('user');if(!u||!u.canEdit())return;
+  assets=await claude.use('assets');art=await claude.use('artifact');
+  ok=true;if(location.hash==='#acceso-cabana')login();
+}catch(x){}})();
+window.addEventListener('hashchange',function(){if(location.hash==='#acceso-cabana')abrir()});
+var taps=0,tt;$('#fnm').addEventListener('click',function(){taps++;clearTimeout(tt);tt=setTimeout(function(){taps=0},2500);if(taps>=2){taps=0;abrir()}});
+})();
+</script></body></html>
